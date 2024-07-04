@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Prata&family=Readex+Pro:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png">
+    <script src="js/main.js"></script>
+</head>
+<body class="antialiased bg-body text-body font-body">
+    <div class="">
+                
+      <section class="fixed top-0 w-full z-50">
+        <div class="py-5 bg-gray-200 relative shadow pt-5">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+              <!-- Logo -->
+              <a href="index.html" class="inline-block">
+                <img src="images/Paulo-Cruz-Freelancer3.png" alt="Logo" width="200" class="">
+              </a>
+      
+              <!-- Desktop Navigation Links -->
+              <ul class="hidden sm:flex space-x-8">
+                <li><a class="text-lg text-gray-900 hover:text-gray-700" id="services-link" href="index.html#services">Our Services</a></li>
+                <li><a class="text-lg text-gray-900 hover:text-gray-700" href="ai_policy.html">AI Policy</a></li>
+                <li><a class="text-lg text-gray-900 hover:text-gray-700" href="blog.html">Blog</a></li>
+                <li><a class="text-lg text-gray-900 hover:text-gray-700" id="contact-link" href="index.html#contact">Contact Us</a></li>
+              </ul>
+      
+              <!-- Mobile Menu Button -->
+              <button id="mobile-menu-button" class="block sm:hidden focus:outline-none">
+                <svg class="h-6 w-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+              </button>
+            </div>
+      
+            <!-- Mobile Menu (Hidden by Default) -->
+            <div id="mobile-menu" class="hidden sm:hidden mt-2">
+              <ul class="flex flex-col space-y-4">
+                <li><a class="block text-lg text-gray-900 hover:text-gray-700" id="services-link-mobile" href="index.html#services">Our Services</a></li>
+                <li><a class="block text-lg text-gray-900 hover:text-gray-700" href="ai_policy.html">AI Policy</a></li>
+                <li><a class="block text-lg text-gray-900 hover:text-gray-700" href="blog.html">Blog</a></li>
+                <li><a class="block text-lg text-gray-900 hover:text-gray-700" id="contact-link-mobile" href="index.html#contact">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      <script>
+        // JavaScript to toggle mobile menu visibility
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+          var mobileMenu = document.getElementById('mobile-menu');
+          mobileMenu.classList.toggle('hidden');
+        });
+      </script></section>
+                
+      <section class="py-24 bg-gray-100 md:py-10">
+        <div class="container px-4 mx-auto pt-20">
+          <div class="flex items-center mb-24">
+            <span class="font-heading text-xl">Our Blog //</span>
+            <div class="mx-4 rounded-full bg-gray-200 h-1 w-1"></div>
+            <span class="font-heading text-xl">writings on how we write</span>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/3 lg:mb-0 mb-16 px-4">
+              <div class="max-w-md mx-auto">
+                <a href="writing-in-the-age-of-ai.html">
+                  <img class="block w-full h-62 mb-16 object-cover" src="images/rbotwriting-min.jpg" alt="">
+                </a>
+                <div class="mb-8">
+                  <span class="inline-block px-5 py-1 mr-6 text-sm bg-white rounded-full">Expertise</span>
+                  <span class="font-light text-sm text-gray-700">May 20, 2024</span>
+                </div>
+                <h4 class="font-heading text-2xl mb-10"><a href="writing-in-the-age-of-ai.html">Content writing in the age of AI – and how not to sound like a machine</a></h4>
+                <div class="flex items-center mb-10">
+                  <img class="w-10 h-10 mr-4 rounded-full" src="images/website.png" alt="">
+                  <span class="text-gray-400">Paulo Cruz</span>
+                </div>
+                <!-- Removed the "Learn More" button -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+</body>
+</html>
+
